@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+h2 {
+  font-size: 14px;
+  font-weight: normal;
+  color: gray;
+}
+/* title */
+.title {
+  width: 100%;
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title h2:hover {
+  cursor: pointer;
+  border-bottom: 1px solid gray;
+}
+.about-store h2 {
+  display: inline;
+  margin-left: 20px;
+}
+.gmail {
+  margin-right: 25px;
+}
+
+.gmail h2,
+img,
+button {
+  display: inline;
+  margin-right: 20px;
+}
+.gmail img {
+  width: 30px;
+  position: relative;
+  top: 10px;
+  opacity: 0.4;
+  cursor: pointer;
+}
+.gmail img:hover {
+  opacity: 0.7;
+}
+.gmail button {
+  cursor: pointer;
+  padding: 7px 13px;
+  background-color: #4285f4;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+/* google */
+.google {
+  width: 100%;
+  height: 86vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.google-img {
+  margin-bottom: 10px;
+}
+.search input {
+  border: 1px solid #d5d3d3;
+  padding: 15px 180px;
+  border-radius: 25px;
+  position: relative;
+  left: 50px;
+}
+.search input:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+.search input:focus {
+  outline: none;
+}
+
+.search-icon {
+  width: 30px;
+  position: relative;
+  right: 470px;
+  top: 10px;
+}
+.microphone {
+  width: 15px;
+  position: relative;
+  right: 40px;
+  top: 6px;
+}
+.google-buttons button {
+  background-color: #f2f2f2;
+  color: gray;
+  border: none;
+  padding: 10px 15px;
+  margin: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.google-buttons button:hover {
+  border: 1px solid gray;
+}
+.google-text {
+  font-size: 12px;
+}
+
+/* footer */
+.footer {
+  width: 100%;
+  height: 8vh;
+  display: flex;
+  flex-direction: column;
+}
+.footer h2:hover {
+  cursor: pointer;
+  border-bottom: 1px solid gray;
+}
+.first-footer {
+  height: 50%;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(212, 212, 212);
+}
+.first-footer h2 {
+  margin: 0px 40px;
+}
+.second-footer {
+  height: 50%;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: space-between;
+}
+.second-footer div {
+  display: flex;
+  margin: 0px 20px;
+  display: flex;
+  align-items: center;
+}
+.second-footer div h2 {
+  margin: 0px 20px;
+}
